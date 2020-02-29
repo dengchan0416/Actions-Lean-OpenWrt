@@ -31,6 +31,16 @@ env:
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   TZ: Asia/Shanghai
+env:
+  REPO_URL: https://github.com/Lienol/openwrt-package
+  REPO_BRANCH: master
+  CONFIG_FILE: x86.config
+  DIY_SH: diy.sh
+  FREE_UP_DISK: false
+  SSH_ACTIONS: false
+  UPLOAD_BIN_DIR: false
+  UPLOAD_FIRMWARE: true
+  TZ: Asia/Shanghai
 
 jobs:
   build:
